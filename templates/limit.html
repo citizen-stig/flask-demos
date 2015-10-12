@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test limit</title>
+</head>
+<body>
+{% for rate in rates %}
+   <p>{{ rate.id }} - {{ rate.amount }} - {{ rate.work_type }} - {{ rate.author }}</p>
+{% endfor %}
+</body>
+</html>
