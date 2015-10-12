@@ -74,4 +74,4 @@ class AuthorRate(db.Model):
                              order_by=id, lazy='joined')
 
     def __str__(self):
-        return str(self.cost_to_cust)
+        return str(self.amount)
